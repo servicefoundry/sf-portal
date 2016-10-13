@@ -1,0 +1,5 @@
+.idea/
+*.iml
+src/assets
+src/node_modules
+src/app/swagger-ui

@@ -1,0 +1,15 @@
+{
+  "name": "sf-portal",
+  "version": "0.0.1",
+  "description": "Service Foundry Cloud",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp localhost"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^4.1.0"
+  }
+}

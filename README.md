@@ -1,2 +1,2 @@
-# sf-portal
-Management Portal for Service Foundry Platform
+# Service Foundry Platform - Portal
+User Portal for Service Foundry Platform

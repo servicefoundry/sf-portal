@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <!-- BEGIN HEAD -->
+
+    <head>
+        <meta charset="utf-8" />
+        <title>SERVICE FOUNDRY | MICROSERVICES + DEVOPS + CONTAINER | User Center | Role</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta content="" name="description" />
+        <meta content="SERVICE FOUNDRY" name="author" />
+        <!-- BEGIN GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.gmirror.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+        <!-- END GLOBAL MANDATORY STYLES -->
+        <!-- BEGIN PAGE LEVEL PLUGINS -->
+        <link href="../assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/bootstrap-modal/css/bootstrap-modal.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/morris/morris.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/fullcalendar/fullcalendar.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/jqvmap/jqvmap/jqvmap.css" rel="stylesheet" type="text/css" />
+        <!-- END PAGE LEVEL PLUGINS -->
+        <!-- BEGIN THEME GLOBAL STYLES -->
+        <link href="../assets/global/css/components-md.min.css" rel="stylesheet" id="style_components" type="text/css" />
+        <link href="../assets/global/css/plugins-md.min.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME GLOBAL STYLES -->
+        <!-- BEGIN THEME LAYOUT STYLES -->
+        <link href="../assets/layouts/layout2/css/layout.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/layouts/layout2/css/themes/blue.min.css" rel="stylesheet" type="text/css" id="style_color" />
+        <link href="../assets/layouts/layout2/css/custom.min.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME LAYOUT STYLES -->
+        <link rel="shortcut icon" href="favicon.ico" /> </head>
+    <!-- END HEAD -->
+
+    <body class="page-header-fixed page-sidebar-closed-hide-logo page-container-bg-solid page-sidebar-closed  page-md">
+        <!-- BEGIN HEADER -->
+        <div class="page-header navbar navbar-fixed-top">
+            <!-- BEGIN HEADER INNER -->
+            <div class="page-header-inner ">
+                <!-- BEGIN LOGO -->
+                <div class="page-logo">
+                    <a href="index.html"></a>
+                    <div class="menu-toggler sidebar-toggler">
+                    </div>
+                </div>
+                <!-- END LOGO -->
+                <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse"> </a>
+                <!-- END RESPONSIVE MENU TOGGLER -->
+                <!-- BEGIN PAGE TOP -->
+                <div class="page-top">
+                    <!-- BEGIN HEADER SEARCH BOX -->
+                    <form class="search-form search-form-expanded" action="page_general_search_3.html" method="GET">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search..." name="query">
+                            <span class="input-group-btn">
+                                <a href="javascript:;" class="btn submit">
+                                    <i class="icon-magnifier"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </form>
+                    <!-- END HEADER SEARCH BOX -->
+                    <!-- BEGIN TOP NAVIGATION MENU -->
+                    <div class="top-menu">
+                        <ul class="nav navbar-nav pull-right">
+                            <!-- BEGIN USER LOGIN DROPDOWN -->
+                            <li class="dropdown dropdown-user">
+                                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                    <img alt="" class="img-circle" src="../assets/layouts/layout2/img/avatar.png" />
+                                    <span class="username username-hide-on-mobile"> SF Administrator </span>
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-default">
+                                    <li>
+                                        <a href="user_profile.html">
+                                            <i class="icon-user"></i> My Profile </a>
+                                    </li>
+                                    <li class="divider"> </li>
+                                    <li>
+                                        <a href="user_lock.html">
+                                            <i class="icon-lock"></i> Lock Screen </a>
+                                    </li>
+                                    <li>
+                                        <a href="login.html">
+                                            <i class="icon-key"></i> Log Out </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- END USER LOGIN DROPDOWN -->
+                        </ul>
+                    </div>
+                    <!-- END TOP NAVIGATION MENU -->
+                </div>
+                <!-- END PAGE TOP -->
+            </div>
+            <!-- END HEADER INNER -->
+        </div>
+        <!-- END HEADER -->
+        <!-- BEGIN HEADER & CONTENT DIVIDER -->
+        <div class="clearfix"> </div>
+        <!-- END HEADER & CONTENT DIVIDER -->
+        <!-- BEGIN CONTAINER -->
+        <div class="page-container">
+            <!-- BEGIN SIDEBAR -->
+            <div class="page-sidebar-wrapper">
+                <!-- END SIDEBAR -->
+                <div class="page-sidebar navbar-collapse collapse">
+                    <!-- BEGIN SIDEBAR MENU -->
+                    <ul class="page-sidebar-menu  page-header-fixed page-sidebar-menu-hover-submenu page-sidebar-menu-closed" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+                        <!-- BEGIN SIDEBAR MENU - DASHBAORD -->
+                        <li class="nav-item ">
+                            <a href="index.html" class="nav-link nav-toggle">
+                                <i class="icon-home"></i>
+                                <span class="title">Home</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item ">
+                                    <a href="index.html" class="nav-link ">
+                                        <i class="icon-bar-chart"></i>
+                                        <span class="title">Dashboard</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- END SIDEBAR MENU - DASHBAORD -->
+                        <!-- BEGIN SIDEBAR MENU - DEVELOPMENT CENTER -->
+                        <li class="nav-item">
+                            <a href="dev_center.html" class="nav-link nav-toggle">
+                                <i class="icon-magic-wand"></i>
+                                <span class="title">Development Center</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item ">
+                                    <a href="dev_center_product.html" class="nav-link ">
+                                        <i class="icon-grid"></i>
+                                        <span class="title">Product</span>
+                                        <span class="badge badge-primary">4</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="dev_center_application.html" class="nav-link ">
+                                        <i class="icon-screen-tablet"></i>
+                                        <span class="title">Application</span>
+                                        <span class="badge badge-primary">6</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="dev_center_service.html" class="nav-link ">
+                                        <i class="icon-puzzle"></i>
+                                        <span class="title">Service</span>
+                                        <span class="badge badge-primary">8</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-target"></i>
+                                        <span class="title">Environment</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- END SIDEBAR MENU - DEVELOPMENT CENTER -->
+                        <!-- BEGIN SIDEBAR MENU - DELIVERY CENTER -->
+                        <li class="nav-item  ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-cloud-upload"></i>
+                                <span class="title">Delivery Center</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-rocket"></i>
+                                        <span class="title">Deployment</span>
+                                        <span class="badge badge-primary">14</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-eye"></i>
+                                        <span class="title">Monitoring</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-target"></i>
+                                        <span class="title">Environment</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- END SIDEBAR MENU - DELIVERY CENTER -->
+                        <!-- BEGIN SIDEBAR MENU - DEVOPS CENTER -->
+                        <li class="nav-item  ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-loop"></i>
+                                <span class="title">DevOps Center</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-present"></i>
+                                        <span class="title">Pipeline Template</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-social-dropbox"></i>
+                                        <span class="title">Pipeline Provision</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-game-controller"></i>
+                                        <span class="title">Runtime</span>
+                                        <span class="badge badge-primary">14</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-graph"></i>
+                                        <span class="title">DevOps KPI</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-speedometer"></i>
+                                        <span class="title">DevOps Dashboard</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- END SIDEBAR MENU - DEVOPS CENTER -->
+                        <!-- BEGIN SIDEBAR MENU - CONTAINER CENTER -->
+                        <li class="nav-item  ">
+                            <a href="container_center_repo.html" class="nav-link nav-toggle">
+                                <i class="icon-layers"></i>
+                                <span class="title">Container Center</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item  ">
+                                    <a href="container_center_repo.html" class="nav-link ">
+                                        <i class="icon-share-alt"></i>
+                                        <span class="title">Repository</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item  ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-basket"></i>
+                                        <span class="title">Marketplace</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item  ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-game-controller"></i>
+                                        <span class="title">Runtime</span>
+                                        <span class="badge badge-primary">14</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item  ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-globe"></i>
+                                        <span class="title">Cluster</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- END SIDEBAR MENU - CONTAINER CENTER -->
+                        <!-- BEGIN SIDEBAR MENU - USER CENTER -->
+                        <li class="nav-item start active open">
+                            <a href="user_profile.html" class="nav-link nav-toggle">
+                                <i class="icon-users"></i>
+                                <span class="title">User Center</span>
+                                <span class="selected"></span>
+                                <span class="arrow open"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item ">
+                                    <a href="user_profile.html" class="nav-link ">
+                                        <i class="icon-user"></i>
+                                        <span class="title">Profile</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="user_organization.html" class="nav-link ">
+                                        <i class="icon-frame"></i>
+                                        <span class="title">Organization</span>
+                                        <span class="badge badge-primary">2</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="user_workspace.html" class="nav-link ">
+                                        <i class="icon-umbrella"></i>
+                                        <span class="title">Workspace</span>
+                                        <span class="badge badge-primary">4</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item start active open">
+                                    <a href="user_role.html" class="nav-link ">
+                                        <i class="icon-key"></i>
+                                        <span class="title">Role</span>
+                                        <span class="badge badge-primary">3</span>
+                                        <span class="selected"></span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="user_user.html" class="nav-link ">
+                                        <i class="icon-user-follow"></i>
+                                        <span class="title">User</span>
+                                        <span class="badge badge-primary">15</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="user_permission.html" class="nav-link ">
+                                        <i class="icon-shield"></i>
+                                        <span class="title">Permission</span>
+                                        <span class="badge badge-primary">30</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-wallet"></i>
+                                        <span class="title">Expense</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- END SIDEBAR MENU - USER CENTER -->
+                        <!-- BEGIN SIDEBAR MENU - PLATFORM CENTER -->
+                        <li class="nav-item ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-settings"></i>
+                                <span class="title">Platform Center</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-user"></i>
+                                        <span class="title">Account</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-docs"></i>
+                                        <span class="title">Order</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-screen-tablet"></i>
+                                        <span class="title">Application Catalog</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-puzzle"></i>
+                                        <span class="title">Service Catalog</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-loop"></i>
+                                        <span class="title">Pipeline Catalog</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-layers"></i>
+                                        <span class="title">Container Catalog</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-calculator"></i>
+                                        <span class="title">Quotas</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-link"></i>
+                                        <span class="title">Connect</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- END SIDEBAR MENU - PLATFORM CENTER -->
+                        <!-- BEGIN SIDEBAR MENU - MARKETPLACE -->
+                        <li class="nav-item ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-basket"></i>
+                                <span class="title">Service Marketplace</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-directions"></i>
+                                        <span class="title">Platform Service</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-magnet"></i>
+                                        <span class="title">Partner Service</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-refresh"></i>
+                                        <span class="title">Service Lifecycle</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link ">
+                                        <i class="icon-question"></i>
+                                        <span class="title">Service Support</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- END SIDEBAR MENU - MARKETPLACE -->
+                    </ul>
+                    <!-- END SIDEBAR MENU -->
+                </div>
+                <!-- END SIDEBAR -->
+            </div>
+            <!-- END SIDEBAR -->
+            <!-- BEGIN CONTENT -->
+            <div class="page-content-wrapper">
+                <!-- BEGIN CONTENT BODY -->
+                <div class="page-content">
+                    <!-- BEGIN PAGE HEADER-->
+                    <h1 class="page-title"> Role Management
+                        <small>for resouces and products authorization</small>
+                    </h1>
+                    <div class="page-bar">
+                        <ul class="page-breadcrumb">
+                            <li>
+                                <i class="icon-home"></i>
+                                <a href="index.html">Home</a>
+                                <i class="fa fa-angle-right"></i>
+                            </li>
+                            <li>
+                                <span>User Center</span>
+                                <i class="fa fa-angle-right"></i>
+                            </li>
+                            <li>
+                                <span>Role</span>
+                            </li>
+                        </ul>
+                        <div class="page-toolbar">
+                            <div class="btn-group pull-right">
+                                <button type="button" class="btn btn-fit-height sbold green"
+                                        data-target="#roleModal"  data-toggle="modal">
+                                    Add New
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- BEGIN RESOURCE MODAL PAGE -->
+                        <div id="organizationModal" class="modal fade" tabindex="-1" data-width="760">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                <h4 class="modal-title">Organization</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="portlet-body form">
+                                    <form role="form">
+                                        <div class="form-body">
+                                            <div class="form-group form-md-line-input form-md-floating-label has-success">
+                                                <input type="text" class="form-control" id="organizationName">
+                                                <label for="organizationName">Name</label>
+                                            </div>
+                                            <div class="form-group form-md-line-input form-md-floating-label has-success">
+                                                <input type="text" class="form-control" id="organizationDescription">
+                                                <label for="organizationDescription">Description</label>
+                                            </div>
+                                            <div class="md-checkbox">
+                                                <input type="checkbox" id="validOrganization" name="validOrganization"
+                                                       class="md-checkbox" checked>
+                                                <label for="validOrganization">
+                                                    <span></span>
+                                                    <span class="check"></span>
+                                                    <span class="box"></span> Valid </label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" data-dismiss="modal" class="btn btn-outline dark">Close</button>
+                                <button type="button" data-dismiss="modal" class="btn green">Save changes</button>
+                            </div>
+                        </div>
+                        <!-- END RESOURCE MODAL PAGE -->
+                        <!-- BEGIN WORKSPACE MODAL PAGE -->
+                        <div id="workspaceModal" class="modal fade" tabindex="-1" data-width="760">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                <h4 class="modal-title">Workspace</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="portlet-body form">
+                                    <form role="form">
+                                        <div class="form-body">
+                                            <div class="form-group form-md-line-input form-md-floating-label has-info">
+                                                <select class="form-control edited" id="wsOrganizationName">
+                                                    <option value=""></option>
+                                                    <option value="1" selected>SEED</option>
+                                                    <option value="2">FSI</option>
+                                                    <option value="3">TRAN</option>
+                                                </select>
+                                                <label for="wsOrganizationName">Organization</label>
+                                            </div>
+                                            <div class="form-group form-md-line-input form-md-floating-label has-success">
+                                                <input type="text" class="form-control" id="workspaceName">
+                                                <label for="workspaceName">Name</label>
+                                            </div>
+                                            <div class="form-group form-md-line-input form-md-floating-label has-success">
+                                                <input type="text" class="form-control" id="workspaceDescription">
+                                                <label for="workspaceDescription">Description</label>
+                                            </div>
+                                            <div class="md-checkbox">
+                                                <input type="checkbox" id="validWorkspace" name="validOrganization"
+                                                       class="md-checkbox" checked>
+                                                <label for="validWorkspace">
+                                                    <span></span>
+                                                    <span class="check"></span>
+                                                    <span class="box"></span> Valid </label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" data-dismiss="modal" class="btn btn-outline dark">Close</button>
+                                <button type="button" data-dismiss="modal" class="btn green">Save changes</button>
+                            </div>
+                        </div>
+                        <!-- END WORKSPACE MODAL PAGE -->
+                        <!-- BEGIN ROLE MODAL PAGE -->
+                        <div id="roleModal" class="modal fade" tabindex="-1" data-width="760">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                <h4 class="modal-title">Role</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="portlet-body form">
+                                    <form role="form">
+                                        <div class="form-body">
+                                            <div class="form-group form-md-line-input form-md-floating-label has-info">
+                                                <select class="form-control edited" id="roleOrganizationName">
+                                                    <option value=""></option>
+                                                    <option value="1" selected>SEED</option>
+                                                    <option value="2">FSI</option>
+                                                    <option value="3">TRAN</option>
+                                                </select>
+                                                <label for="roleOrganizationName">Organization</label>
+                                            </div>
+                                            <div class="form-group form-md-line-input form-md-floating-label has-success">
+                                                <input type="text" class="form-control" id="roleName">
+                                                <label for="roleName">Name</label>
+                                            </div>
+                                            <div class="form-group form-md-line-input form-md-floating-label has-success">
+                                                <input type="text" class="form-control" id="roleDescription">
+                                                <label for="roleDescription">Description</label>
+                                            </div>
+                                            <div class="md-checkbox">
+                                                <input type="checkbox" id="validRole" name="validOrganization"
+                                                       class="md-checkbox" checked>
+                                                <label for="validRole">
+                                                    <span></span>
+                                                    <span class="check"></span>
+                                                    <span class="box"></span> Valid </label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" data-dismiss="modal" class="btn btn-outline dark">Close</button>
+                                <button type="button" data-dismiss="modal" class="btn green">Save changes</button>
+                            </div>
+                        </div>
+                        <!-- END ROLE MODAL PAGE -->
+                        <!-- BEGIN USER MODAL PAGE -->
+                        <div id="userModal" class="modal fade" tabindex="-1" data-width="760">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                <h4 class="modal-title">User</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="portlet-body form">
+                                    <form role="form">
+                                        <div class="form-body">
+                                            <div class="form-group form-md-line-input form-md-floating-label has-success">
+                                                <select class="form-control edited" id="userOrganizationName">
+                                                    <option value=""></option>
+                                                    <option value="1" selected>SEED</option>
+                                                    <option value="2">FSI</option>
+                                                    <option value="3">TRAN</option>
+                                                </select>
+                                                <label for="userOrganizationName">Organization</label>
+                                            </div>
+                                            <div class="form-group form-md-line-input form-md-floating-label has-success">
+                                                <input type="text" class="form-control" id="userAccount">
+                                                <label for="userFullName">Account</label>
+                                            </div>
+                                            <div class="form-group form-md-line-input form-md-floating-label has-success">
+                                                <input type="text" class="form-control" id="userFullName">
+                                                <label for="userFullName">Full Name</label>
+                                            </div>
+                                            <div class="form-group form-md-line-input form-md-floating-label has-success">
+                                                <input type="text" class="form-control" id="userEmail">
+                                                <label for="userEmail">Email</label>
+                                            </div>
+                                            <div class="form-group form-md-line-input form-md-floating-label has-success">
+                                                <select class="form-control" id="userCountry">
+                                                    <option value=""></option>
+                                                    <option value="AF">Afghanistan</option>
+                                                    <option value="AL">Albania</option>
+                                                    <option value="DZ">Algeria</option>
+                                                    <option value="AS">American Samoa</option>
+                                                    <option value="AD">Andorra</option>
+                                                    <option value="AO">Angola</option>
+                                                    <option value="AI">Anguilla</option>
+                                                    <option value="AR">Argentina</option>
+                                                    <option value="AM">Armenia</option>
+                                                    <option value="AW">Aruba</option>
+                                                    <option value="AU">Australia</option>
+                                                    <option value="AT">Austria</option>
+                                                    <option value="AZ">Azerbaijan</option>
+                                                    <option value="BS">Bahamas</option>
+                                                    <option value="BH">Bahrain</option>
+                                                    <option value="BD">Bangladesh</option>
+                                                    <option value="BB">Barbados</option>
+                                                    <option value="BY">Belarus</option>
+                                                    <option value="BE">Belgium</option>
+                                                    <option value="BZ">Belize</option>
+                                                    <option value="BJ">Benin</option>
+                                                    <option value="BM">Bermuda</option>
+                                                    <option value="BT">Bhutan</option>
+                                                    <option value="BO">Bolivia</option>
+                                                    <option value="BA">Bosnia and Herzegowina</option>
+                                                    <option value="BW">Botswana</option>
+                                                    <option value="BV">Bouvet Island</option>
+                                                    <option value="BR">Brazil</option>
+                                                    <option value="IO">British Indian Ocean Territory</option>
+                                                    <option value="BN">Brunei Darussalam</option>
+                                                    <option value="BG">Bulgaria</option>
+                                                    <option value="BF">Burkina Faso</option>
+                                                    <option value="BI">Burundi</option>
+                                                    <option value="KH">Cambodia</option>
+                                                    <option value="CM">Cameroon</option>
+                                                    <option value="CA">Canada</option>
+                                                    <option value="CV">Cape Verde</option>
+                                                    <option value="KY">Cayman Islands</option>
+                                                    <option value="CF">Central African Republic</option>
+                                                    <option value="TD">Chad</option>
+                                                    <option value="CL">Chile</option>
+                                                    <option value="CN">China</option>
+                                                    <option value="CX">Christmas Island</option>
+                                                    <option value="CC">Cocos (Keeling) Islands</option>
+                                                    <option value="CO">Colombia</option>
+                                                    <option value="KM">Comoros</option>
+                                                    <option value="CG">Congo</option>
+                                                    <option value="CD">Congo, the Democratic Republic of the</option>
+                                                    <option value="CK">Cook Islands</option>
+                                                    <option value="CR">Costa Rica</option>
+                                                    <option value="CI">Cote d'Ivoire</option>
+                                                    <option value="HR">Croatia (Hrvatska)</option>
+                                                    <option value="CU">Cuba</option>
+                                                    <option value="CY">Cyprus</option>
+                                                    <option value="CZ">Czech Republic</option>
+                                                    <option value="DK">Denmark</option>
+                                                    <option value="DJ">Djibouti</option>
+                                                    <option value="DM">Dominica</option>
+                                                    <option value="DO">Dominican Republic</option>
+                                                    <option value="EC">Ecuador</option>
+                                                    <option value="EG">Egypt</option>
+                                                    <option value="SV">El Salvador</option>
+                                                    <option value="GQ">Equatorial Guinea</option>
+                                                    <option value="ER">Eritrea</option>
+                                                    <option value="EE">Estonia</option>
+                                                    <option value="ET">Ethiopia</option>
+                                                    <option value="FK">Falkland Islands (Malvinas)</option>
+                                                    <option value="FO">Faroe Islands</option>
+                                                    <option value="FJ">Fiji</option>
+                                                    <option value="FI">Finland</option>
+                                                    <option value="FR">France</option>
+                                                    <option value="GF">French Guiana</option>
+                                                    <option value="PF">French Polynesia</option>
+                                                    <option value="TF">French Southern Territories</option>
+                                                    <option value="GA">Gabon</option>
+                                                    <option value="GM">Gambia</option>
+                                                    <option value="GE">Georgia</option>
+                                                    <option value="DE">Germany</option>
+                                                    <option value="GH">Ghana</option>
+                                                    <option value="GI">Gibraltar</option>
+                                                    <option value="GR">Greece</option>
+                                                    <option value="GL">Greenland</option>
+                                                    <option value="GD">Grenada</option>
+                                                    <option value="GP">Guadeloupe</option>
+                                                    <option value="GU">Guam</option>
+                                                    <option value="GT">Guatemala</option>
+                                                    <option value="GN">Guinea</option>
+                                                    <option value="GW">Guinea-Bissau</option>
+                                                    <option value="GY">Guyana</option>
+                                                    <option value="HT">Haiti</option>
+                                                    <option value="HM">Heard and Mc Donald Islands</option>
+                                                    <option value="VA">Holy See (Vatican City State)</option>
+                                                    <option value="HN">Honduras</option>
+                                                    <option value="HK">Hong Kong</option>
+                                                    <option value="HU">Hungary</option>
+                                                    <option value="IS">Iceland</option>
+                                                    <option value="IN">India</option>
+                                                    <option value="ID">Indonesia</option>
+                                                    <option value="IR">Iran (Islamic Republic of)</option>
+                                                    <option value="IQ">Iraq</option>
+                                                    <option value="IE">Ireland</option>
+                                                    <option value="IL">Israel</option>
+                                                    <option value="IT">Italy</option>
+                                                    <option value="JM">Jamaica</option>
+                                                    <option value="JP">Japan</option>
+                                                    <option value="JO">Jordan</option>
+                                                    <option value="KZ">Kazakhstan</option>
+                                                    <option value="KE">Kenya</option>
+                                                    <option value="KI">Kiribati</option>
+                                                    <option value="KP">Korea, Democratic People's Republic of</option>
+                                                    <option value="KR">Korea, Republic of</option>
+                                                    <option value="KW">Kuwait</option>
+                                                    <option value="KG">Kyrgyzstan</option>
+                                                    <option value="LA">Lao People's Democratic Republic</option>
+                                                    <option value="LV">Latvia</option>
+                                                    <option value="LB">Lebanon</option>
+                                                    <option value="LS">Lesotho</option>
+                                                    <option value="LR">Liberia</option>
+                                                    <option value="LY">Libyan Arab Jamahiriya</option>
+                                                    <option value="LI">Liechtenstein</option>
+                                                    <option value="LT">Lithuania</option>
+                                                    <option value="LU">Luxembourg</option>
+                                                    <option value="MO">Macau</option>
+                                                    <option value="MK">Macedonia, The Former Yugoslav Republic of</option>
+                                                    <option value="MG">Madagascar</option>
+                                                    <option value="MW">Malawi</option>
+                                                    <option value="MY">Malaysia</option>
+                                                    <option value="MV">Maldives</option>
+                                                    <option value="ML">Mali</option>
+                                                    <option value="MT">Malta</option>
+                                                    <option value="MH">Marshall Islands</option>
+                                                    <option value="MQ">Martinique</option>
+                                                    <option value="MR">Mauritania</option>
+                                                    <option value="MU">Mauritius</option>
+                                                    <option value="YT">Mayotte</option>
+                                                    <option value="MX">Mexico</option>
+                                                    <option value="FM">Micronesia, Federated States of</option>
+                                                    <option value="MD">Moldova, Republic of</option>
+                                                    <option value="MC">Monaco</option>
+                                                    <option value="MN">Mongolia</option>
+                                                    <option value="MS">Montserrat</option>
+                                                    <option value="MA">Morocco</option>
+                                                    <option value="MZ">Mozambique</option>
+                                                    <option value="MM">Myanmar</option>
+                                                    <option value="NA">Namibia</option>
+                                                    <option value="NR">Nauru</option>
+                                                    <option value="NP">Nepal</option>
+                                                    <option value="NL">Netherlands</option>
+                                                    <option value="AN">Netherlands Antilles</option>
+                                                    <option value="NC">New Caledonia</option>
+                                                    <option value="NZ">New Zealand</option>
+                                                    <option value="NI">Nicaragua</option>
+                                                    <option value="NE">Niger</option>
+                                                    <option value="NG">Nigeria</option>
+                                                    <option value="NU">Niue</option>
+                                                    <option value="NF">Norfolk Island</option>
+                                                    <option value="MP">Northern Mariana Islands</option>
+                                                    <option value="NO">Norway</option>
+                                                    <option value="OM">Oman</option>
+                                                    <option value="PK">Pakistan</option>
+                                                    <option value="PW">Palau</option>
+                                                    <option value="PA">Panama</option>
+                                                    <option value="PG">Papua New Guinea</option>
+                                                    <option value="PY">Paraguay</option>
+                                                    <option value="PE">Peru</option>
+                                                    <option value="PH">Philippines</option>
+                                                    <option value="PN">Pitcairn</option>
+                                                    <option value="PL">Poland</option>
+                                                    <option value="PT">Portugal</option>
+                                                    <option value="PR">Puerto Rico</option>
+                                                    <option value="QA">Qatar</option>
+                                                    <option value="RE">Reunion</option>
+                                                    <option value="RO">Romania</option>
+                                                    <option value="RU">Russian Federation</option>
+                                                    <option value="RW">Rwanda</option>
+                                                    <option value="KN">Saint Kitts and Nevis</option>
+                                                    <option value="LC">Saint LUCIA</option>
+                                                    <option value="VC">Saint Vincent and the Grenadines</option>
+                                                    <option value="WS">Samoa</option>
+                                                    <option value="SM">San Marino</option>
+                                                    <option value="ST">Sao Tome and Principe</option>
+                                                    <option value="SA">Saudi Arabia</option>
+                                                    <option value="SN">Senegal</option>
+                                                    <option value="SC">Seychelles</option>
+                                                    <option value="SL">Sierra Leone</option>
+                                                    <option value="SG">Singapore</option>
+                                                    <option value="SK">Slovakia (Slovak Republic)</option>
+                                                    <option value="SI">Slovenia</option>
+                                                    <option value="SB">Solomon Islands</option>
+                                                    <option value="SO">Somalia</option>
+                                                    <option value="ZA">South Africa</option>
+                                                    <option value="GS">South Georgia and the South Sandwich Islands</option>
+                                                    <option value="ES">Spain</option>
+                                                    <option value="LK">Sri Lanka</option>
+                                                    <option value="SH">St. Helena</option>
+                                                    <option value="PM">St. Pierre and Miquelon</option>
+                                                    <option value="SD">Sudan</option>
+                                                    <option value="SR">Suriname</option>
+                                                    <option value="SJ">Svalbard and Jan Mayen Islands</option>
+                                                    <option value="SZ">Swaziland</option>
+                                                    <option value="SE">Sweden</option>
+                                                    <option value="CH">Switzerland</option>
+                                                    <option value="SY">Syrian Arab Republic</option>
+                                                    <option value="TW">Taiwan, Province of China</option>
+                                                    <option value="TJ">Tajikistan</option>
+                                                    <option value="TZ">Tanzania, United Republic of</option>
+                                                    <option value="TH">Thailand</option>
+                                                    <option value="TG">Togo</option>
+                                                    <option value="TK">Tokelau</option>
+                                                    <option value="TO">Tonga</option>
+                                                    <option value="TT">Trinidad and Tobago</option>
+                                                    <option value="TN">Tunisia</option>
+                                                    <option value="TR">Turkey</option>
+                                                    <option value="TM">Turkmenistan</option>
+                                                    <option value="TC">Turks and Caicos Islands</option>
+                                                    <option value="TV">Tuvalu</option>
+                                                    <option value="UG">Uganda</option>
+                                                    <option value="UA">Ukraine</option>
+                                                    <option value="AE">United Arab Emirates</option>
+                                                    <option value="GB">United Kingdom</option>
+                                                    <option value="US">United States</option>
+                                                    <option value="UM">United States Minor Outlying Islands</option>
+                                                    <option value="UY">Uruguay</option>
+                                                    <option value="UZ">Uzbekistan</option>
+                                                    <option value="VU">Vanuatu</option>
+                                                    <option value="VE">Venezuela</option>
+                                                    <option value="VN">Viet Nam</option>
+                                                    <option value="VG">Virgin Islands (British)</option>
+                                                    <option value="VI">Virgin Islands (U.S.)</option>
+                                                    <option value="WF">Wallis and Futuna Islands</option>
+                                                    <option value="EH">Western Sahara</option>
+                                                    <option value="YE">Yemen</option>
+                                                    <option value="ZM">Zambia</option>
+                                                    <option value="ZW">Zimbabwe</option>
+                                                </select>
+                                                <label for="userCountry">Country</label>
+                                            </div>
+                                            <div class="md-checkbox">
+                                                <input type="checkbox" id="validUser" name="validOrganization"
+                                                       class="md-checkbox" checked>
+                                                <label for="validUser">
+                                                    <span></span>
+                                                    <span class="check"></span>
+                                                    <span class="box"></span> Valid </label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" data-dismiss="modal" class="btn btn-outline dark">Close</button>
+                                <button type="button" data-dismiss="modal" class="btn green">Save changes</button>
+                            </div>
+                        </div>
+                        <!-- END USER MODAL PAGE -->
+                        <!-- BEGIN PERMISSION MODAL PAGE -->
+                        <div id="permissionModal" class="modal fade" tabindex="-1" data-width="760">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                <h4 class="modal-title">Permission</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="portlet-body form">
+                                    <form role="form">
+                                        <div class="form-body">
+                                            <div class="form-group form-md-line-input form-md-floating-label has-info">
+                                                <select class="form-control edited" id="permOrganizationName">
+                                                    <option value=""></option>
+                                                    <option value="1" selected>SEED</option>
+                                                    <option value="2">FSI</option>
+                                                    <option value="3">TRAN</option>
+                                                </select>
+                                                <label for="permOrganizationName">Organization</label>
+                                            </div>
+                                            <div class="form-group form-md-line-input form-md-floating-label has-info">
+                                                <select class="form-control edited" id="permUser">
+                                                    <option value=""></option>
+                                                    <option value="1">DEV01</option>
+                                                    <option value="2">DEV02</option>
+                                                    <option value="3">DEV03</option>
+                                                </select>
+                                                <label for="permUser">User</label>
+                                            </div>
+                                            <div class="form-group form-md-line-input form-md-floating-label has-info">
+                                                <select class="form-control edited" id="permWorkspace">
+                                                    <option value=""></option>
+                                                    <option value="1">DEV-ENV</option>
+                                                    <option value="2">TEST-ENV</option>
+                                                    <option value="3">PRODUCTION-ENV</option>
+                                                </select>
+                                                <label for="permUser">Workspace</label>
+                                            </div>
+                                            <div class="form-group form-md-line-input form-md-floating-label has-info">
+                                                <select class="form-control edited" id="permRole">
+                                                    <option value=""></option>
+                                                    <option value="1" selected>Operator</option>
+                                                    <option value="2">Administrator</option>
+                                                </select>
+                                                <label for="permUser">Role</label>
+                                            </div>
+                                            <div class="md-checkbox">
+                                                <input type="checkbox" id="validPermission" name="validOrganization"
+                                                       class="md-checkbox" checked>
+                                                <label for="validPermission">
+                                                    <span></span>
+                                                    <span class="check"></span>
+                                                    <span class="box"></span> Valid </label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" data-dismiss="modal" class="btn btn-outline dark">Close</button>
+                                <button type="button" data-dismiss="modal" class="btn green">Save changes</button>
+                            </div>
+                        </div>
+                        <!-- END PERMISSION MODAL PAGE -->
+                    </div>
+                    <!-- END PAGE HEADER-->
+                    <!-- BEGIN CONTENT TABLE ZONE -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- BEGIN TABLE PORTLET-->
+                            <div class="portlet box green">
+                                <div class="portlet-title">
+                                    <div class="caption">
+                                        <i class="fa fa-list"></i>Role </div>
+                                    <div class="tools">
+                                        <a href="javascript:;" class="reload"> </a>
+                                    </div>
+                                </div>
+                                <div class="portlet-body flip-scroll">
+                                    <table class="table table-bordered table-striped table-condensed">
+                                        <thead class="flip-content">
+                                        <tr>
+                                            <th width="20%"> Organization </th>
+                                            <th width="20%"> Name </th>
+                                            <th> Description </th>
+                                            <th width="75 px"> Valid </th>
+                                            <th width="1%">
+                                                <div class="btn-group pull-right">
+                                                    <button class="btn btn-sm green  btn-outline dropdown-toggle" data-toggle="dropdown">Toolkit
+                                                        <i class="fa fa-angle-down"></i>
+                                                    </button>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li>
+                                                            <a href="javascript:;">
+                                                                <i class="fa fa-print"></i> Print </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:;">
+                                                                <i class="fa fa-file-pdf-o"></i> Save as PDF </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:;">
+                                                                <i class="fa fa-file-excel-o"></i> Export to Excel </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td> SEED </td>
+                                            <td> Operator </td>
+                                            <td> Can operate on resources and products </td>
+                                            <td>
+                                                <div class="md-checkbox">
+                                                    <input type="checkbox" id="validRole1" name="validOrganization"
+                                                           class="md-checkbox" checked>
+                                                    <label for="validRole1">
+                                                        <span></span>
+                                                        <span class="check"></span>
+                                                        <span class="box"></span></label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="btn-group pull-right">
+                                                    <button class="btn btn-sm green  btn-outline dropdown-toggle" data-toggle="dropdown">Actions
+                                                        <i class="fa fa-angle-down"></i>
+                                                    </button>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li>
+                                                            <a data-target="#organizationModal"  data-toggle="modal">
+                                                                <i class="fa fa-edit"></i> Modify </a>
+                                                        </li>
+                                                        <li>
+                                                            <a data-toggle="confirmation" data-placement="left"
+                                                               title="Are you sure ?">
+                                                                <i class="fa fa-remove"></i> Delete </a>
+                                                        </li>
+                                                        <li class="divider"></li>
+                                                        <li>
+                                                            <a data-target="#permissionModal"  data-toggle="modal">
+                                                                <i class="badge badge-info">10</i>
+                                                                <i class="fa fa-plus"></i> New Permission </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td> SEED </td>
+                                            <td> Administrator </td>
+                                            <td> Have full authorization on resources and products </td>
+                                            <td>
+                                                <div class="md-checkbox">
+                                                    <input type="checkbox" id="validRole2" name="validOrganization"
+                                                           class="md-checkbox" checked>
+                                                    <label for="validRole2">
+                                                        <span></span>
+                                                        <span class="check"></span>
+                                                        <span class="box"></span></label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="btn-group pull-right">
+                                                    <button class="btn btn-sm green  btn-outline dropdown-toggle" data-toggle="dropdown">Actions
+                                                        <i class="fa fa-angle-down"></i>
+                                                    </button>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li>
+                                                            <a data-target="#organizationModal"  data-toggle="modal">
+                                                                <i class="fa fa-edit"></i> Modify </a>
+                                                        </li>
+                                                        <li>
+                                                            <a data-toggle="confirmation" data-placement="left"
+                                                               title="Are you sure ?">
+                                                                <i class="fa fa-remove"></i> Delete </a>
+                                                        </li>
+                                                        <li class="divider"></li>
+                                                        <li>
+                                                            <a data-target="#permissionModal"  data-toggle="modal">
+                                                                <i class="badge badge-info">10</i>
+                                                                <i class="fa fa-plus"></i> New Permission </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td> FSI </td>
+                                            <td> Operator </td>
+                                            <td> Can operate on resources and products </td>
+                                            <td>
+                                                <div class="md-checkbox">
+                                                    <input type="checkbox" id="validRole3" name="validOrganization"
+                                                           class="md-checkbox" checked>
+                                                    <label for="validRole3">
+                                                        <span></span>
+                                                        <span class="check"></span>
+                                                        <span class="box"></span></label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="btn-group pull-right">
+                                                    <button class="btn btn-sm green  btn-outline dropdown-toggle" data-toggle="dropdown">Actions
+                                                        <i class="fa fa-angle-down"></i>
+                                                    </button>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li>
+                                                            <a data-target="#organizationModal"  data-toggle="modal">
+                                                                <i class="fa fa-edit"></i> Modify </a>
+                                                        </li>
+                                                        <li>
+                                                            <a data-toggle="confirmation" data-placement="left"
+                                                               title="Are you sure ?">
+                                                                <i class="fa fa-remove"></i> Delete </a>
+                                                        </li>
+                                                        <li class="divider"></li>
+                                                        <li>
+                                                            <a data-target="#permissionModal"  data-toggle="modal">
+                                                                <i class="badge badge-info">10</i>
+                                                                <i class="fa fa-plus"></i> New Permission </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td> FSI </td>
+                                            <td> Administrator </td>
+                                            <td> Have full authorization on resources and products </td>
+                                            <td>
+                                                <div class="md-checkbox">
+                                                    <input type="checkbox" id="validOrganization1" name="validOrganization"
+                                                           class="md-checkbox" checked>
+                                                    <label for="validOrganization1">
+                                                        <span></span>
+                                                        <span class="check"></span>
+                                                        <span class="box"></span></label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="btn-group pull-right">
+                                                    <button class="btn btn-sm green  btn-outline dropdown-toggle" data-toggle="dropdown">Actions
+                                                        <i class="fa fa-angle-down"></i>
+                                                    </button>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li>
+                                                            <a data-target="#organizationModal"  data-toggle="modal">
+                                                                <i class="fa fa-edit"></i> Modify </a>
+                                                        </li>
+                                                        <li>
+                                                            <a data-toggle="confirmation" data-placement="left"
+                                                               title="Are you sure ?">
+                                                                <i class="fa fa-remove"></i> Delete </a>
+                                                        </li>
+                                                        <li class="divider"></li>
+                                                        <li>
+                                                            <a data-target="#permissionModal"  data-toggle="modal">
+                                                                <i class="badge badge-info">10</i>
+                                                                <i class="fa fa-plus"></i> New Permission </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td> TRAN </td>
+                                            <td> Operator </td>
+                                            <td> Can operate on resources and products </td>
+                                            <td>
+                                                <div class="md-checkbox">
+                                                    <input type="checkbox" id="validOrganization1" name="validOrganization"
+                                                           class="md-checkbox" checked>
+                                                    <label for="validOrganization1">
+                                                        <span></span>
+                                                        <span class="check"></span>
+                                                        <span class="box"></span></label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="btn-group pull-right">
+                                                    <button class="btn btn-sm green  btn-outline dropdown-toggle" data-toggle="dropdown">Actions
+                                                        <i class="fa fa-angle-down"></i>
+                                                    </button>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li>
+                                                            <a data-target="#organizationModal"  data-toggle="modal">
+                                                                <i class="fa fa-edit"></i> Modify </a>
+                                                        </li>
+                                                        <li>
+                                                            <a data-toggle="confirmation" data-placement="left"
+                                                               title="Are you sure ?">
+                                                                <i class="fa fa-remove"></i> Delete </a>
+                                                        </li>
+                                                        <li class="divider"></li>
+                                                        <li>
+                                                            <a data-target="#permissionModal"  data-toggle="modal">
+                                                                <i class="badge badge-info">10</i>
+                                                                <i class="fa fa-plus"></i> New Permission </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td> TRAN </td>
+                                            <td> Administrator </td>
+                                            <td> Have full authorization on resources and products </td>
+                                            <td>
+                                                <div class="md-checkbox">
+                                                    <input type="checkbox" id="validOrganization1" name="validOrganization"
+                                                           class="md-checkbox" checked>
+                                                    <label for="validOrganization1">
+                                                        <span></span>
+                                                        <span class="check"></span>
+                                                        <span class="box"></span></label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="btn-group pull-right">
+                                                    <button class="btn btn-sm green  btn-outline dropdown-toggle" data-toggle="dropdown">Actions
+                                                        <i class="fa fa-angle-down"></i>
+                                                    </button>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li>
+                                                            <a data-target="#organizationModal"  data-toggle="modal">
+                                                                <i class="fa fa-edit"></i> Modify </a>
+                                                        </li>
+                                                        <li>
+                                                            <a data-toggle="confirmation" data-placement="left"
+                                                               title="Are you sure ?">
+                                                                <i class="fa fa-remove"></i> Delete </a>
+                                                        </li>
+                                                        <li class="divider"></li>
+                                                        <li>
+                                                            <a data-target="#permissionModal"  data-toggle="modal">
+                                                                <i class="badge badge-info">10</i>
+                                                                <i class="fa fa-plus"></i> New Permission </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END TABLE PORTLET-->
+                </div>
+                <!-- END CONTENT BODY -->
+            </div>
+            <!-- END CONTENT -->
+        </div>
+        <!-- END CONTAINER -->
+        <!-- BEGIN FOOTER -->
+        <div class="page-footer">
+            <div class="page-footer-inner"> 2017 &copy; Service Foundry
+                <div class="scroll-to-top">
+                    <i class="icon-arrow-up"></i>
+                </div>
+            </div>
+        </div>
+        <!-- END FOOTER -->
+            <!--[if lt IE 9]>
+<script src="../assets/global/plugins/respond.min.js"></script>
+<script src="../assets/global/plugins/excanvas.min.js"></script> 
+<script src="../assets/global/plugins/ie8.fix.min.js"></script> 
+<![endif]-->
+            <!-- BEGIN CORE PLUGINS -->
+            <script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+            <!-- END CORE PLUGINS -->
+            <!-- BEGIN PAGE LEVEL PLUGINS -->
+            <script src="../assets/global/plugins/bootstrap-modal/js/bootstrap-modalmanager.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/bootstrap-modal/js/bootstrap-modal.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/bootstrap-confirmation/bootstrap-confirmation.min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/moment.min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/morris/morris.min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/morris/raphael-min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/counterup/jquery.waypoints.min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/amcharts/amcharts/amcharts.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/amcharts/amcharts/serial.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/amcharts/amcharts/pie.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/amcharts/amcharts/radar.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/amcharts/amcharts/themes/light.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/amcharts/amcharts/themes/patterns.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/amcharts/amcharts/themes/chalk.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/amcharts/ammap/ammap.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/amcharts/ammap/maps/js/worldLow.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/amcharts/amstockcharts/amstock.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/fullcalendar/fullcalendar.min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/horizontal-timeline/horizontal-timeline.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/flot/jquery.flot.min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/flot/jquery.flot.resize.min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/flot/jquery.flot.categories.min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/jquery-easypiechart/jquery.easypiechart.min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/jqvmap/jqvmap/jquery.vmap.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.russia.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.world.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.europe.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js" type="text/javascript"></script>
+            <script src="../assets/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js" type="text/javascript"></script>
+            <!-- END PAGE LEVEL PLUGINS -->
+            <!-- BEGIN THEME GLOBAL SCRIPTS -->
+            <script src="../assets/global/scripts/app.min.js" type="text/javascript"></script>
+            <!-- END THEME GLOBAL SCRIPTS -->
+            <!-- BEGIN PAGE LEVEL SCRIPTS -->
+            <script src="../assets/pages/scripts/dashboard.min.js" type="text/javascript"></script>
+            <script src="../assets/pages/scripts/ui-extended-modals.min.js" type="text/javascript"></script>
+            <script src="../assets/pages/scripts/ui-confirmations.min.js" type="text/javascript"></script>
+            <!-- END PAGE LEVEL SCRIPTS -->
+            <!-- BEGIN THEME LAYOUT SCRIPTS -->
+            <script src="../assets/layouts/layout2/scripts/layout.min.js" type="text/javascript"></script>
+            <script src="../assets/layouts/layout2/scripts/demo.min.js" type="text/javascript"></script>
+            <script src="../assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+            <script src="../assets/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
+            <!-- END THEME LAYOUT SCRIPTS -->
+    </body>
+
+</html>
