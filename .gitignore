@@ -3,3 +3,4 @@
 src/assets
 src/node_modules
 src/app/swagger-ui
+src/app/api
